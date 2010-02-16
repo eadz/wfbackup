@@ -25,6 +25,8 @@ Usage: wfbackup.rb [options]
     -f, --full                       Full Run. Same as -d -u -c
     -h, --help                       Show this message
 
+Example crontab entry
 
+44 14 * * * cd /wfbackup/install/path && /opt/bin/ruby /wfbackup/install/path/wfbackup.rb -f
 
-
+to do a full backup and cleanup
